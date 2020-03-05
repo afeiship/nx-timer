@@ -14,6 +14,10 @@ gem 'nx-timer', git: 'git@github.com:afeiship/nx-timer.git'
 Nx::interval(3) do
     puts "hello nx-timer"
 end
+
+# hello nx-timer
+# hello nx-timer
+# ...
 ```
 
 ## build/publish
