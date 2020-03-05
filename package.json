@@ -1,0 +1,23 @@
+{
+  "name": "nx-timer",
+  "version": "1.0.0",
+  "description": "Timer for nx.",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "clean": "rm -rf *.gem",
+    "build": "gem build *.gemspec",
+    "pubpush": "gem push *.gem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afeiship/nx-timer.git"
+  },
+  "author": "afei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afeiship/nx-timer/issues"
+  },
+  "homepage": "https://github.com/afeiship/nx-timer#readme"
+}
